@@ -1,6 +1,6 @@
 import React from "react";
 import logoSpotify from "../assets/logo/spotify-logo.png";
-import logoGitHub from "../assets/logo-git/github-logo.png";
+import logoGitHub from "../assets/logo/github-logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
