@@ -577,6 +577,27 @@ img {
   }
 }
 
+/*ScrollBar CSS*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(
+    to bottom,
+    var(--green-800),
+    var(--green-500)
+  );
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-600);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-600);
+}
+
 /* 404 template CSS (Optional) */
 
 .cls-1 {
