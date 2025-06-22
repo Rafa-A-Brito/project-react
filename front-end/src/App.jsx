@@ -6,6 +6,7 @@ import Artists from "./pages/Artists";
 import Artist from "./pages/Artist";
 import Songs from "./pages/Songs";
 import Song from "./pages/Song";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 const App = () => {
   // console.log('Olá Mundo');
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/artist/:id" element={<Artist />} />
           <Route path="/songs" element={<Songs />} />
           <Route path="/song/:id" element={<Song />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </>
