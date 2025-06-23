@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Artists from "./pages/Artists";
 import Artist from "./pages/Artist";
@@ -19,7 +19,8 @@ const App = () => {
           <Route path="/artist/:id" element={<Artist />} />
           <Route path="/songs" element={<Songs />} />
           <Route path="/song/:id" element={<Song />} />
-          <Route path="*" element={<PageNotFound />} />
+          <Route path="/404" element={<PageNotFound />} />
+          <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </BrowserRouter>
     </>
