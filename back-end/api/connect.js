@@ -1,11 +1,9 @@
 // JS Assíncrono
 // Await e Async
 import { MongoClient } from "mongodb";
+import { MONGODB_URI } from "./config.js";
 
-const URI =
-  "mongodb+srv://react-main:g3knMOHM873q9g8V@cluster0.uvdy8pl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
-const client = new MongoClient(URI);
+const client = new MongoClient(MONGODB_URI);
 
 export const db = client.db("repSpotify");
 // const songCollection = await db.collection("songs").find({}).toArray();
