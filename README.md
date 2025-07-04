@@ -5,7 +5,7 @@
 Abaixo, uma prévia do projeto finalizado 🤝!
 
 <div align="center">
-  <img src="./preview/Prévia-gif.gif" width="600" alt="Prévia do Projeto" />
+  <img src="./preview/Previa-gif01.gif" width="600" alt="Prévia do Projeto" />
 </div>
 
 ---
