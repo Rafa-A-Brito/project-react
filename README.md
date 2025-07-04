@@ -2,9 +2,14 @@
 
 ## 🧐 Prévia
 
+Abaixo, uma prévia do projeto finalizado 🤝!
+
 <div align="center">
   <img src="./preview/Prévia-gif.gif" width="600" alt="Prévia do Projeto" />
 </div>
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 A seguir, algumas das tecnologias usadas para o desenvolvimento do projeto. A divisão foi feita da seguinte maneira: Tecnologia | Versão (atual ou utilizada).
